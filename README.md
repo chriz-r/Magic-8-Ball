@@ -14,7 +14,7 @@ A fun, interactive Magic 8 Ball web application built with Python Flask and anim
 
 ```
 Magic8Ball/
-├── app.py                 # Flask backend server
+├── magic8ball.py          # Flask backend server
 ├── requirements.txt       # Python dependencies
 ├── templates/
 │   └── index.html        # Main HTML template
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 1. Start the Flask server:
 ```bash
-python app.py
+python magic8ball.py
 ```
 
 2. Open your web browser and navigate to:
@@ -69,7 +69,7 @@ The Magic 8 Ball provides three types of answers:
 ## Customization
 
 You can easily customize the Magic 8 Ball by editing:
-- `app.py`: Add or modify answer responses in the `ANSWERS` list
+- `magic8ball.py`: Add or modify answer responses in the `ANSWERS` list
 - `static/style.css`: Change colors, sizes, or animation timing
 - `static/script.js`: Modify the animation sequence or behavior
 
